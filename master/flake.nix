@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-parasound-master.flake = false;
+  inputs.src-parasound-master.ref   = "refs/heads/master";
   inputs.src-parasound-master.owner = "paranim";
-  inputs.src-parasound-master.ref   = "master";
   inputs.src-parasound-master.repo  = "parasound";
   inputs.src-parasound-master.type  = "github";
   
